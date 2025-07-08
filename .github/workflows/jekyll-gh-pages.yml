@@ -8,6 +8,10 @@ on:
 jobs:
   github-pages:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write # Required for OIDC support, though not strictly for this specific action, it's good practice for GH Pages workflows
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-ruby@v1
@@ -19,6 +23,8 @@ jobs:
           bundle install
       - name: Build Jekyll site
         run: bundle exec jekyll build
+      - name: List _site contents
+        run: ls -la _site
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
