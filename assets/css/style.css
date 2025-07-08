@@ -1,0 +1,176 @@
+/* Add your custom CSS here */
+
+body {
+  font-family: 'Georgia', 'Times New Roman', Times, serif; /* Changed to serif font */
+  background-color: #fcf8f5; /* Very light, warm background */
+  color: #4a4a4a; /* Softer dark grey for text */
+  font-size: 1.1rem; /* Slightly bigger base font */
+  font-weight: 500; /* Medium font weight for body text */
+}
+
+.navbar {
+  background-color: #ff9933 !important; /* Softer orange for header */
+  border-bottom: 1px solid #e68a2e;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important; /* White text for better contrast */
+  font-weight: 500; /* Medium font weight */
+  margin: 0 15px; /* Slightly increased margin for readability */
+  transition: color 0.3s ease;
+  font-size: 1.15rem; /* Bigger nav link font */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff0e6 !important; /* Lighter hover effect */
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff0e6 !important;
+}
+
+.custom-brand {
+  color: #ffffff !important; /* White text for brand */
+  font-size: 2.5rem; /* Even bigger brand font for quirkiness */
+  font-weight: 700; /* Bolder font weight */
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* More pronounced text shadow */
+  transform: rotate(-3deg); /* Slight rotation for quirkiness */
+  display: inline-block; /* Needed for transform */
+}
+
+h1 {
+  color: #ff9933; /* Softer orange for headings */
+  font-weight: 500; /* Medium font weight */
+  margin-bottom: 15px; /* Adjusted margin */
+  font-size: 2.8rem; /* Bigger general h1 */
+}
+
+.lead {
+  color: #6b6b6b; /* Softer lead text color */
+  margin-bottom: 20px; /* Adjusted margin */
+  font-size: 1.4rem; /* Bigger lead font */
+  font-weight: 500; /* Medium font weight */
+}
+
+.container {
+  padding-top: 30px; /* Reduced padding */
+  padding-bottom: 30px; /* Reduced padding */
+}
+
+.btn-primary {
+  background-color: #ff9933; /* Softer orange for primary buttons */
+  border-color: #ff9933;
+  font-size: 1.1rem; /* Bigger button font */
+  padding: 10px 20px; /* More padding for buttons */
+  border-radius: 8px; /* More rounded buttons */
+  font-weight: 500; /* Medium font weight */
+}
+
+.btn-primary:hover {
+  background-color: #e68a2e;
+  border-color: #e68a2e;
+}
+
+/* Card styles for homepage */
+.card-section {
+  margin-top: 20px; /* Reduced margin */
+  margin-bottom: 20px; /* Reduced margin */
+}
+
+.card {
+  border: none;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* More pronounced, softer shadow */
+  transition: transform 0.3s ease-in-out; /* Smoother transition */
+  border-radius: 15px; /* More rounded cards */
+}
+
+.card:hover {
+  transform: translateY(-10px) rotate(2deg); /* More lift and slight rotation on hover */
+}
+
+.card-title {
+  color: #ff9933; /* Softer orange for card titles */
+  font-weight: 500; /* Medium font weight */
+  font-size: 1.6rem; /* Bigger card title font */
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1.05rem; /* Bigger card text font */
+  font-weight: 500; /* Medium font weight */
+}
+
+/* Hero Section Styles */
+.hero-section {
+  background: linear-gradient(45deg, rgba(255, 153, 51, 0.8), rgba(255, 179, 102, 0.8)), url('/assets/images/hero-bg.jpg') no-repeat center center; /* Softer orange gradient overlay + background image */
+  background-size: cover;
+  color: white;
+  padding: 60px 0; /* Reduced padding */
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px; /* More rounded corners for hero */
+  margin-bottom: 30px; /* Reduced margin */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* More pronounced shadow for hero */
+}
+
+.hero-section h1 {
+  font-size: 4rem; /* Slightly reduced for better fit with less padding */
+  color: white; /* White text for contrast on gradient */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); /* More pronounced text shadow */
+  font-weight: 500; /* Medium font weight */
+}
+
+.hero-section .lead {
+  font-size: 1.6rem; /* Slightly reduced for better fit */
+  color: white;
+  margin-bottom: 20px; /* Adjusted margin */
+  font-weight: 500; /* Medium font weight */
+}
+
+/* Wave Animation */
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.15); /* Slightly more visible wave */
+  border-radius: 45%; /* Slightly more rounded wave */
+  animation: wave 18s infinite linear; /* Slower, smoother wave */
+  z-index: 0;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* New section at bottom of homepage */
+.row.mt-5 {
+  margin-top: 30px !important; /* Reduced margin */
+}
+
+.card.p-4 {
+  padding: 25px !important; /* Reduced padding */
+  border-radius: 15px; /* Rounded corners for this card */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Soft shadow */
+}
+
+.card.p-4 .card-title {
+  font-size: 1.8rem; /* Slightly reduced title for this card */
+  color: #ff9933; /* Softer orange */
+  font-weight: 500; /* Medium font weight */
+}
+
+.card.p-4 .card-text {
+  font-size: 1.1rem; /* Slightly reduced text for this card */
+  line-height: 1.6; /* Improved readability */
+  font-weight: 500; /* Medium font weight */
+}
+
+.card.p-4 img {
+  border-radius: 10px; /* Rounded image corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for image */
+}

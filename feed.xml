@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-08T18:17:16+00:00</updated><id>/feed.xml</id><title type="html">My Bootstrap 5 Jekyll Theme</title><subtitle>A basic Jekyll theme with Bootstrap 5 and nice cards.</subtitle><entry><title type="html">Welcome to Bootstrap 5 Jekyll!</title><link href="/jekyll/bootstrap/2025/07/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Bootstrap 5 Jekyll!" /><published>2025-07-08T14:00:00+00:00</published><updated>2025-07-08T14:00:00+00:00</updated><id>/jekyll/bootstrap/2025/07/08/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/bootstrap/2025/07/08/welcome-to-jekyll.html"><![CDATA[<p>This is your first post with the new Bootstrap 5 Jekyll theme. It features a responsive design and uses Bootstrap cards to display posts on the homepage. You can edit this post in <code class="language-plaintext highlighter-rouge">_posts/2025-07-08-welcome-to-jekyll.markdown</code>.</p>
+
+<h3 id="features">Features:</h3>
+
+<ul>
+  <li><strong>Bootstrap 5:</strong> Modern and responsive design framework.</li>
+  <li><strong>Jekyll:</strong> Simple, blog-aware, static site generator.</li>
+  <li><strong>Cards:</strong> Clean and organized display of content.</li>
+</ul>
+
+<p>Enjoy building your website!</p>]]></content><author><name></name></author><category term="jekyll" /><category term="bootstrap" /><summary type="html"><![CDATA[This is your first post with the new Bootstrap 5 Jekyll theme. It features a responsive design and uses Bootstrap cards to display posts on the homepage. You can edit this post in _posts/2025-07-08-welcome-to-jekyll.markdown.]]></summary></entry></feed>
